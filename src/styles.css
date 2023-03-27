@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: black;
+  color: white;
+}
+
+.container p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.container hr {
+  height: 1px;
+  margin: 0;
+  background-color: grey;
+  border: none;
+  margin-left:25px;
+  margin-right:25px;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 7px;
+}
